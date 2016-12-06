@@ -141,11 +141,11 @@ td{text-align:center;color:#FFF}
 <?php
 mysql_close($conn_local);
 
-$dbhost2 = '27.109.22.130';
+$dbhost2 = '';
 
-$dbuser = 'auto_push_pull';
-$dbpass = 'auto_push_pull';
-$dbname = 'suraksha_14_15';
+$dbuser = '';
+$dbpass = '';
+$dbname = '';
 
 $connt = mysql_connect($dbhost2,$dbuser,$dbpass)
 or die('Error connecting to mysql');
